@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alimineti Spoorthy Reddy — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="nav">
+      <div class="brand">
+        <div class="logo">SR</div>
+        <div>
+          <div style="font-weight:700"> Spoorthy Reddy Alimineti</div>
+          <div class="muted" style="font-size:12px">Software Developer · AI/ML · Data Science</div>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#edu-exp">Background</a>
+        <a href="#publications">Publications</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home" class="hero reveal">
+      <div class="card-hero hero-left">
+        <h3>Hello, It's Me</h3>
+        <h1>Spoorthy Reddy Alimineti</h1>
+        <h4>· Full-Stack Developer · Data Scientist . AI and ML Enthusiast </h4>
+        <p style="margin-top:12px">I design and deliver production-ready web applications and machine learning systems — from data ingestion and modeling to clean UX and deployment. Currently pursuing my Master's in Computer & Information Sciences at University of North Texas (GPA: 4.0).</p>
+        <div class="hero-ctas">
+          <a class="btn" href="mailto:aspoorthyreddy21@gmail.com">Contact Me</a>
+          <a class="btn" href="assets/Spoorthy_Resume.pdf" target="_blank">Download Resume</a>
+          <a class="btn" href="https://github.com/spoorthyreddy-star" target="_blank">GitHub</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><div class="num">4.0</div><div class="muted">GPA</div></div>
+          <div class="stat"><div class="num">25+</div><div class="muted">Certifications</div></div>
+          <div class="stat"><div class="num">5+</div><div class="muted">Major Projects</div></div>
+        </div>
+      </div>
+
+    <div class="hero-image">
+  <img src="assets/profile.jpg" alt="Profile" onerror="this.src='https://via.placeholder.com/400x400.png?text=Profile'">
+</div>
+</section>
+  <div class="glass reveal" id="about">
+      <h3>About Me</h3>
+      <p class="muted">I am currently pursuing a Master's in Computer and Information Sciences at the University of North Texas with a 4.0 GPA. I build scalable full-stack applications and deploy ML models for real-world problems. I enjoy turning data into actionable products and shipping robust, user-friendly software.</p>
+      <div class="about-ctas" style="margin-top:12px">
+        <a class="btn" href="mailto:aspoorthyreddy21@gmail.com">Hire / Contact</a>
+        <a class="btn" href="assets/Spoorthy_Resume.pdf" target="_blank">View Resume</a>
+      </div>
+    </div>
+
+<!-- SERVICES -->
+<div class="glass reveal" id="services">
+  <h3>Services</h3>
+  <div class="services" style="margin-top:16px; display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px;">
+    
+<!-- Full-Stack Development -->
+  <div class="service-card" style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);padding:20px;border-radius:14px;text-align:center;transition:all .3s ease;cursor:pointer;">
+      <em data-lucide="code-2" style="width:38px;height:38px;color:#00fff5;margin-bottom:10px;"></em>
+      <h4>Full-Stack Development</h4>
+      <p class="muted">
+        Building scalable and responsive web applications using React, Node.js, Express, and REST APIs.
+      </p>
+    </div>
+
+<!-- AI & Machine Learning -->
+    <div class="service-card" style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);padding:20px;border-radius:14px;text-align:center;transition:all .3s ease;cursor:pointer;">
+      <em data-lucide="brain-circuit" style="width:38px;height:38px;color:#00fff5;margin-bottom:10px;"></em>
+      <h4>AI & Machine Learning</h4>
+      <p class="muted">
+        Developing deep learning, NLP, and predictive models using TensorFlow, PyTorch, and scikit-learn. Deploying intelligent systems and ML pipelines.
+      </p>
+    </div>
+
+    <!-- Data Engineering & Visualization -->
+    <div class="service-card" style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);padding:20px;border-radius:14px;text-align:center;transition:all .3s ease;cursor:pointer;">
+      <em data-lucide="bar-chart-3" style="width:38px;height:38px;color:#00fff5;margin-bottom:10px;"></em>
+      <h4>Data Engineering & Visualization</h4>
+      <p class="muted">
+        Designing ETL pipelines, data processing workflows, and interactive dashboards using Power BI, Tableau, Spark, and Streamlit.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Lucide Icons Script -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+
+  // Optional hover animation
+  document.querySelectorAll('.service-card').forEach(card=>{
+    card.addEventListener('mouseenter',()=>{card.style.transform='translateY(-6px) scale(1.03)';card.style.boxShadow='0 12px 30px rgba(0,255,245,0.12)'});
+    card.addEventListener('mouseleave',()=>{card.style.transform='none';card.style.boxShadow='none'});
+  });
+</script>
+
+<div id="projects" class="glass reveal">
+  <h3>Featured Projects</h3>
+  <div class="projects-grid">
+
+    <div class="project">
+      <h4>Resume-Lens</h4>
+      <p class="muted">AI-powered resume analysis & job-matching platform with skill-gap insights and cover letter generation.</p>
+      <ul class="muted">
+        <li>Extracts skills and matches resumes with job descriptions using OpenAI API</li>
+        <li>Generates tailored cover letters and visual skill-gap insights</li>
+      </ul>
+      <div class="tags"><div class="tag">React</div><div class="tag">Supabase</div><div class="tag">OpenAI</div></div>
+      <a href="https://github.com/spoorthyreddy-star/Resume_Lens-Resume-Analyzer-and-Visualizer" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h4>Electricity Theft Detection</h4>
+      <p class="muted">Hybrid CNN + Random Forest model to detect electricity theft in smart grids. Validated on real datasets with very high accuracy.</p>
+      <ul class="muted">
+        <li>Combines CNN feature extraction with Random Forest classification</li>
+        <li>Detects anomalous consumption patterns in smart grid data</li>
+      </ul>
+      <div class="tags"><div class="tag">Python</div><div class="tag">TensorFlow</div></div>
+      <a href="https://github.com/spoorthyreddy-star/Electricity-Theft-Detection-in-Smart-Grids-Based-on-Deep-Neural-Networks" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h4>Network Traffic Classification</h4>
+      <p class="muted">CNN and Network-in-Network architectures for encrypted traffic classification with ~98% accuracy and GUI for visualization.</p>
+      <ul class="muted">
+        <li>Implements CNN and NiN architectures for encrypted traffic data</li>
+        <li>Achieved ~98% accuracy with an interactive visualization GUI</li>
+      </ul>
+      <div class="tags"><div class="tag">Deep Learning</div><div class="tag">Python</div></div>
+      <a href="https://github.com/spoorthyreddy-star/Advanced-Parallelized-Neural-Architecture-for-Precise-Encrypted-Network-Traffic" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h4>YSL React Application</h4>
+      <p class="muted">Modern React component-based web application with responsive UI/UX patterns.</p>
+      <ul class="muted">
+        <li>Built modular, reusable React components for scalability</li>
+        <li>Implemented responsive and modern UI/UX design</li>
+      </ul>
+      <div class="tags"><div class="tag">React</div><div class="tag">JS</div></div>
+      <a href="https://github.com/spoorthyreddy-star/YSL_Basic_React_JS_Project" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h4>Heart Disease Prediction</h4>
+      <p class="muted">Big-data analytics pipeline for disease prediction with interactive visualizations and ML models (95%+ accuracy).</p>
+      <ul class="muted">
+        <li>Built ML models for accurate heart disease prediction</li>
+        <li>Created data visualizations for better medical insights</li>
+      </ul>
+      <div class="tags"><div class="tag">Python</div><div class="tag">Pandas</div></div>
+      <a href="https://github.com/spoorthyreddy-star/Visualization-and-Prediction-of-Heart-Disease-using-Big-Data-Analytics" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h4>CloudCast ML</h4>
+      <p class="muted">Real-Time Rain Prediction App using OpenWeatherMap API and Random Forest model. Built with Python and Streamlit.</p>
+      <ul class="muted">
+        <li>Predicts rainfall using real-time weather data via API</li>
+        <li>Interactive Streamlit UI with dynamic weather insights</li>
+      </ul>
+      <div class="tags"><div class="tag">Python</div><div class="tag">Streamlit</div><div class="tag">API</div></div>
+      <a href="https://github.com/spoorthyreddy-star/CloudCast_ML" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+  </div>
+</div>
+    <div id="skills" class="glass reveal">
+      <h3>Skills & Technologies</h3>
+      <div class="skills-grid">
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"><p>React</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><p>Python</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"><p>TensorFlow</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"><p>Node.js</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"><p>Next.js</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"><p>Docker</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQL"><p>SQL</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><p>Git</p></div>
+      </div>
+    </div>
+
+    <!-- EDUCATION & EXPERIENCE SECTION -->
+<div class="glass reveal" id="edu-exp" style="background:#0b0f14; color:#e6eef8; padding:40px; border-radius:16px;">
+  <h3 style="color:#fbc531; text-align:center; margin-bottom:30px; font-size:1.8em;">Education & Experience</h3>
+
+  <div class="edu-exp-container" style="display:flex; flex-wrap:wrap; gap:25px; justify-content:space-between;">
+
+    <!-- EDUCATION -->
+    <div style="flex:1; min-width:340px;">
+      <h4 style="color:#00ffc8; text-align:center; margin-bottom:18px;">🎓 Education</h4>
+      <div style="display:flex; flex-direction:column; gap:18px;">
+
+        <!-- UNT -->
+        <div class="edu-card animate">
+          <div class="edu-header">
+            <em class="fa-solid fa-graduation-cap" style="color:#00ffc8; font-size:22px;"></em>
+            <h4>University of North Texas, College of Engineering</h4>
+          </div>
+          <p class="muted">Master’s Degree in Computer Science</p>
+          <p class="muted">Aug 2024 – May 2026</p>
+          <p class="muted">Grade: 4 / 4</p>
+          <p class="muted">
+            <strong>Skills:</strong> Artificial Intelligence (AI) · Machine Learning · Full-Stack Development · Data Science
+          </p>
+        </div>
+
+        <!-- MRECW -->
+        <div class="edu-card animate">
+          <div class="edu-header">
+            <em class="fa-solid fa-laptop-code" style="color:#00ffc8; font-size:22px;"></em>
+            <h4>Malla Reddy Engineering College for Women (Autonomous)</h4>
+          </div>
+          <p class="muted">Bachelor of Technology (B.Tech) in Computer Science and Engineering</p>
+          <p class="muted">Nov 2020 – May 2024</p>
+          <p class="muted">Grade: 3.92 / 4</p>
+          <p class="muted">
+            <strong>Skills:</strong> Front-end development, React.js, JavaScript, TypeScript, HTML/CSS, and UI design.
+            Built responsive web apps, integrated data analysis, and deployed applications using modern frameworks.
+          </p>
+        </div>
+
+        <!-- Excellencia -->
+        <div class="edu-card animate">
+          <div class="edu-header">
+            <em class="fa-solid fa-book" style="color:#00ffc8; font-size:22px;"></em>
+            <h4>Excellencia Junior College</h4>
+          </div>
+          <p class="muted">Intermediate (MPC)</p>
+          <p class="muted">May 2018 – May 2020</p>
+          <p class="muted">Grade: 9.6 / 10</p>
+          <p class="muted">
+            <strong>Skills:</strong> Mathematics · Theoretical Physics · Analytical Chemistry
+          </p>
+        </div>
+
+        <!-- Cal Public School -->
+        <div class="edu-card animate">
+          <div class="edu-header">
+            <em class="fa-solid fa-school" style="color:#00ffc8; font-size:22px;"></em>
+            <h4>Cal Public School</h4>
+          </div>
+          <p class="muted">Secondary School</p>
+          <p class="muted">Jun 2017 – May 2018</p>
+          <p class="muted">Grade: 8.3 / 10</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div style="flex:1; min-width:340px;">
+      <h4 style="color:#00ffc8; text-align:center; margin-bottom:18px;">💼 Experience</h4>
+      <div style="display:flex; flex-direction:column; gap:18px;">
+
+        <!-- GTA -->
+        <div class="edu-card animate">
+          <div class="edu-header">
+            <em class="fa-solid fa-chalkboard-user" style="color:#00ffc8; font-size:22px;"></em>
+            <h4>Graduate Teaching Assistant</h4>
+          </div>
+          <p class="muted">University of North Texas | Jan 2025 – Present | Denton, Texas</p>
+          <p class="muted">
+            Conducting lab sessions, assisting with programming assignments, providing debugging support, and helping students with coursework and projects.
+          </p>
+        </div>
+
+        <!-- Class Representative -->
+        <div class="edu-card animate">
+          <div class="edu-header">
+            <em class="fa-solid fa-users" style="color:#00ffc8; font-size:22px;"></em>
+            <h4>Class Representative</h4>
+          </div>
+          <p class="muted">Malla Reddy Engineering College for Women | Feb 2021 – May 2024</p>
+          <p class="muted">
+            Acted as a bridge between faculty and students, organized academic discussions, managed class feedback, and strengthened communication and leadership skills.
+          </p>
+        </div>
+
+        <!-- CSI -->
+        <div class="edu-card animate">
+          <div class="edu-header">
+            <em class="fa-solid fa-network-wired" style="color:#00ffc8; font-size:22px;"></em>
+            <h4>Vice President – CSI Student Chapter</h4>
+          </div>
+          <p class="muted">Malla Reddy Engineering College for Women | Sep 2022 – Jun 2023</p>
+          <p class="muted">
+            Collaborated with the student body and faculty to organize technical events, hackathons, and symposiums, enhancing event management and teamwork skills.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/a2e0e6ad4b.js" crossorigin="anonymous"></script>
+
+<!-- Scroll Animation -->
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.2 });
+
+  document.querySelectorAll('.edu-card').forEach(card => observer.observe(card));
+</script>
+
+     <div id="publications" class="glass reveal">
+      <h3>Publications</h3>
+      <div class="pubs">
+        <div class="pub">
+          <strong>Electricity Theft Detection in Power Grids using Deep Learning and Random Forests</strong>
+          <p>IJMMSA, Vol.14, Issue 3, July 2023 · Jul 29, 2023</p>
+          <a class="btn" href="https://www.ijmmsa.com/ijmmsaadmin/upload/ijlbpr_64b634ae419fb.pdf" target="_blank">Show Publication</a>
+          <p>Co-authored a research paper addressing non-technical losses (NTLs) in smart grids by detecting electricity theft using hybrid CNN–Random Forest (CNN-RF) models. Designed a Convolutional Neural Network to automatically extract temporal consumption features from smart meter data, reducing reliance on manual feature engineering. Integrated a Random Forest classifier optimized via grid search to improve theft detection accuracy, outperforming conventional ML and DL models. Applied SMOTE for data balancing and evaluated performance using confusion matrix, ROC, precision, recall, F-score, and accuracy. Achieved ~100% detection accuracy on real-world datasets (SEAI & LCL), demonstrating the model’s efficiency in reducing financial losses and enhancing power grid security.</p>
+        </div>
+
+        <div class="pub">
+          <strong>Cyberbullying Detection on Social Media using Machine Learning</strong>
+          <p>Journal of Critical Reviews, Vol.10, Issue 07, 2023 · Jul 29, 2023</p>
+          <a class="btn" href="https://jcreview.com/archives/volume-10/issue-7/12440" target="_blank">Show Publication</a>
+          <p>Conducted research on big data analytics and supervised ML algorithms (SVM, Random Forest, etc.) to detect cyberbullying in social media text. Collected and preprocessed real-world datasets (Kaggle, FormSpring, YouTube, Twitter) and performed feature engineering to identify abusive language patterns. Developed and evaluated models using accuracy, precision, recall, and F-measure achieving strong predictive performance. Published findings in a peer-reviewed conference/journal, highlighting the use of machine learning for online safety and cybercrime prevention.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="glass reveal" id="certifications">
+  <h3>Certifications</h3>
+
+  <div class="certifications">
+    
+    <div class="cert-card">
+      <em data-lucide="server"></em>
+      <h4>Introduction to Backend Development</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/3BMFPH82IRCH" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="code-2"></em>
+      <h4>React Basics</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/SS39Q6IUO7R5" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="layout-dashboard"></em>
+      <h4>Introduction to Front-End Development</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/OQ4HUHLYAPCD" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="terminal"></em>
+      <h4>Programming with JavaScript</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/SSS6WPC2USYP" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="brain-circuit"></em>
+      <h4>AI for Everyone</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/S4TKB434LUJN" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="bar-chart-2"></em>
+      <h4>EDA for Machine Learning</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/YGTW54R5MCFC" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="cloud"></em>
+      <h4>Building Modern Python Applications on AWS</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/E8G7UQPM7TK3" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="database"></em>
+      <h4>Introduction to Databases</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/GE7M53RSDM63" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="code"></em>
+      <h4>Python for Data Science, AI & Development</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/CCHVFDAAUGFF" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="book-open"></em>
+      <h4>Programming for Everybody (Getting Started with Python)</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/ZTDHXKKGQ6MW" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="layers"></em>
+      <h4>Foundations: Data, Data, Everywhere</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/PZ5FU2L4BDTA" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="line-chart"></em>
+      <h4>Exploratory vs Confirmatory Data Analysis using Python</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/MCWU6CTFNU86" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="workflow"></em>
+      <h4>Automate Tasks and Processes with Jira</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/TPBB3S4DH3U3" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="sparkles"></em>
+      <h4>Cleaning and Exploring Big Data using PySpark</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/DQUQL6KD9D47" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="brain"></em>
+      <h4>Unsupervised Machine Learning for Customer Market Segmentation</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/6DJMMH5LGYQ8" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="github"></em>
+      <h4>Introduction to GitHub and Visual Studio Code</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/UMXSKK4X5YDS" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="box"></em>
+      <h4>Introduction to Object-Oriented Programming with Java</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/2NLL2PTHJ4W6" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <em data-lucide="layout"></em>
+      <h4>Programming Foundations with JavaScript, HTML and CSS</h4>
+      <p class="muted">Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/9NULDLCFF5DS" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script> lucide.createIcons(); </script>
+
+
+
+
+        <div id="contact" class="glass reveal">
+  <h3>Contact</h3>
+  
+  <div class="contact-form" style="display:flex; flex-direction:column; gap:12px; margin-bottom:20px;">
+    <a href="mailto:aspoorthyreddy21@gmail.com" class="btn" style="text-align:center;">Email Me</a>
+    <a href="https://www.linkedin.com/in/spoorthy-reddy-alimineti-6ba2a2270/" target="_blank" class="btn" style="text-align:center;">Connect on LinkedIn</a>
+  </div>
+
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.973295861161!2d-97.11614268461302!3d33.21484198084851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c15bbf0e40973%3A0x9d449ce627fbc31e!2sUniversity%20of%20North%20Texas!5e0!3m2!1sen!2sus!4v1696035912342!5m2!1sen!2sus" 
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+
+
+
+<script>
+  // Reveal animation for contact section
+  const contactReveal = document.getElementById('contact');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting) {
+        entry.target.classList.add('show');
+      }
+    });
+  }, { threshold: 0.2 });
+  observer.observe(contactReveal);
+</script>
+    <footer>
+      &copy; 2025 Alimineti Spoorthy Reddy. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    const typewriter = document.getElementById('typewriter');
+    const text = typewriter.innerText;
+    typewriter.innerText = '';
+    let idx = 0;
+    function type() {
+      if(idx < text.length) {
+        typewriter.innerHTML += text.charAt(idx);
+        idx++;
+        setTimeout(type, 60);
+      } else {
+        typewriter.classList.add('blink');
+      }
+    }
+    type();
+
+    const reveals = document.querySelectorAll('.reveal');
+    window.addEventListener('scroll', () => {
+      for(let el of reveals){
+        const top = el.getBoundingClientRect().top;
+        if(top < window.innerHeight - 60){
+          el.classList.add('show');
+        }
+      }
+    });
+  </script>
+  <script>
+window.addEventListener("load", () => {
+  document.querySelectorAll(".reveal").forEach(el => {
+    el.classList.add("show");
+  });
+  document.querySelectorAll(".edu-card").forEach(el => {
+    el.classList.add("visible");
+  });
+});
+</script>
+
+</body>
+</html>
