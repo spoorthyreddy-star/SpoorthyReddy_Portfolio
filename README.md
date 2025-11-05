@@ -73,7 +73,7 @@ portfolio/
 
 ## Live Demo
 
-You can view the live portfolio here: 
+You can view the live portfolio here: https://spoorthy-reddy-portfolio.vercel.app/ 
 
 ---
 
